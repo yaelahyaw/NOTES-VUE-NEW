@@ -1,6 +1,6 @@
 module.exports = {
-    publicPath: process.env.NODE_ENV === 'production' ? './' : './',
-    outputDir: './dist',
+    publicPath: process.env.NODE_ENV === 'production' ? './dist' : './',
+    outputDir: './dist/dist',
     indexPath: './index.html',
     devServer: {
         public: 'localhost:8080',
